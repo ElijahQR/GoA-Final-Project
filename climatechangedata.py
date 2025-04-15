@@ -188,7 +188,7 @@ f3.yaxis.axis_label = "Temperature Difference (C)"
 f3.vbar(list(TemperatureDifferencePerYear), 0.9, list(TemperatureDifferencePerYear.values()))
 
 
-f4 = figure(title = "Top 50 Contributing Entities to CO2 Emissions")
+f4 = figure(title = "Top 50 Contributing Entities to CO2 Emissions From Industry and Fossil Fuels")
 f4.xaxis.axis_label = "Entity"
 f4.yaxis.axis_label = "Total Recorded CO2 Emissions (tonnes)"
 sortedTotalCO2Emissions = list(totalRecordedCO2Emissions.values())
